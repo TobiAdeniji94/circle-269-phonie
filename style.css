@@ -1,0 +1,65 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #dcd7d1;
+}
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: black;
+}
+
+.logo{
+  font-size: 32px;
+}
+
+.phonie-form{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.phonie-container{
+  width: 500px;
+  background-color: #a7bfcb;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+form{
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+img{
+  float: right;
+}
+
+p{
+  color: red;
+  font-size: 13px;
+}
+
+#formie img{
+  float:right;
+  width: 40px;
+}
